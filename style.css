@@ -1,0 +1,74 @@
+@font-face {
+    font-family: aasas;
+    src: url(PermanentMarker-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: aasas !important;
+}
+
+#main-nav {
+    background-color: #fdaf1e;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
+    background: url(https://wallpaper.dog/large/991094.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sobre {
+    background-color: #200100 !important;
+}
+
+#habilidades {
+    background-color: #200100 !important;
+}
+
+#portfolio {
+    background-color: #200100 !important;
+}
+
+#contato {
+    background-color: #fdaf1e !important;
+}
+
+i {
+    color: black;
+}
+
+.img-hero {
+    height: auto;
+    box-shadow: 0px 0px 40px 40px #000000;
+}
+
+.card-icon {
+    font-size: 3rem;
+}
+
+.card {
+    background-color: #fdaf1e !important;
+}
+
+.block {
+    height: .3rem;
+    width: 6rem;
+    background-color: #fdaf1e;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
